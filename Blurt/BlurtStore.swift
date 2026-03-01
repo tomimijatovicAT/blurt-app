@@ -22,7 +22,7 @@ final class BlurtStore: ObservableObject {
         case cannotDeleteLastPage
     }
 
-
+    // comment
     init() {
         load()
         if pages.isEmpty {
